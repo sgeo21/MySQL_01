@@ -147,3 +147,6 @@ ON tb_produtos.categoria_id = tb_categorias.id;
 SELECT * FROM tb_produtos INNER JOIN tb_categorias 
 ON tb_produtos.categoria_id = tb_categorias.id
 WHERE tb_produtos.categoria_id = 2; 
+
+-- para trocar o nome de um atributo 
+SELECT tb_produtos.id, descriao, nome as Nomes FROM tb_produtos WHERE nome LIKE "%ra";

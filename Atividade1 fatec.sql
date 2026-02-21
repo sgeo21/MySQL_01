@@ -1,0 +1,1 @@
+CREATE DATABASE livraria_ETEC_fevereiro_2026;
